@@ -4,4 +4,4 @@ This project aims to identify and find a solution to improve performance in mark
 
 Performed data preparation and Exploratory Data Analysis using bank data, built machine learning models using Decision Tree, Random Forest, Logistic Regression, and Gradient Boosting. Results obtained a model with an accuracy of 90.20%.
 
-The EverBank Paper is provided in the Indonesian language.
+EverBank Paper is provided in Indonesian language.

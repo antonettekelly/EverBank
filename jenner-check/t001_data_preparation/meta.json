@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_data_preparation",
+  "source_file": "EverBank Data Preparation.sas",
+  "source_blob_sha": "de990566b3225a3ef656d616bb8f359cefee6cae",
+  "source_commit": "838e2df2553450c01fc9735a39c623a3eca54598",
+  "notes": "Data-preparation step from 'EverBank Data Preparation.sas': the source runs on CAS (dataStep.runCode over EVERBANK_DATASET); this bundle runs the same 11 dqstandardize() standardizations as a portable Base SAS DATA step over a 25-row inline sample of the EverBank marketing dataset, then PROC CONTENTS + PROC MEANS to confirm the prepared 21-column table and its numeric features. Definitions, locale, and column set are exactly as in the source script."
+}

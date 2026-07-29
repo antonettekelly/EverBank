@@ -1,0 +1,25 @@
+NOTE: Option OBS changed to 100.
+NOTE: Option VALIDMEMNAME changed to EXTEND.
+NOTE: Option VALIDVARNAME changed to ANY.
+NOTE: DATA everbank_dataset
+
+NOTE: Processing inline DATALINES (25 lines)
+
+NOTE: Read 25 rows from DATALINES.
+NOTE: Wrote everbank_dataset (25 rows, 21 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA everbank_dataset_prepared
+
+
+NOTE: Read 25 rows from everbank_dataset.
+NOTE: Wrote everbank_dataset_prepared (25 rows, 21 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC CONTENTS data=everbank_dataset_prepared
+
+NOTE: PROC CONTENTS completed: 25 observations, 21 variables
+NOTE: PROC MEANS
+NOTE: PROC MEANS statement used.

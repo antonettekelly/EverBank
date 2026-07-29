@@ -1,0 +1,48 @@
+
+PROC CONTENTS
+-------------------------------------------------------------------------------
+
+Data Set Name: everbank_dataset_prepared
+Observations:  25
+Variables:     21
+
+Variables (in alphabetical order):
+
+  #  Variable        Type    Len  Format  Label
+---  --------------  ----  -----  ------  -----
+  1  age              Num      8          
+  2  campaign         Num      8          
+  3  cons_conf_idx    Num      8          
+  4  cons_price_idx   Num      8          
+  5  contact         Char     16          
+  6  day_of_week     Char     16          
+  7  default         Char     16          
+  8  education       Char     16          
+  9  emp_var_rate     Num      8          
+ 10  euribor3m        Num      8          
+ 11  housing         Char     16          
+ 12  id               Num      8          
+ 13  job             Char     16          
+ 14  loan            Char     16          
+ 15  marital         Char     16          
+ 16  month           Char     16          
+ 17  nr_employed      Num      8          
+ 18  pdays            Num      8          
+ 19  poutcome        Char     16          
+ 20  previous         Num      8          
+ 21  y               Char     16          
+
+-------------------------------------------------------------------------------
+
+                                                  The MEANS Procedure
+
+ Variable              N           Mean     Minimum     Maximum
+ --------------------------------------------------------------
+ age                  25          17.80       17.00       18.00
+ campaign             25           1.52        1.00        3.00
+ emp_var_rate         25          -2.65       -3.40       -0.10
+ cons_price_idx       25          92.66       92.20       93.88
+ euribor3m            25           1.04        0.67        4.25
+ nr_employed          25        5055.06     5008.70     5195.80
+ --------------------------------------------------------------
+

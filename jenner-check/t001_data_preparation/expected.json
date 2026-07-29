@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-07-29T12:28:00Z",
+  "_captured_run_id": "r_6f09d6435b084d58b800d7e97c90e2d1",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "Read 25 rows from DATALINES.",
+    "Wrote everbank_dataset (25 rows, 21 columns).",
+    "Wrote everbank_dataset_prepared (25 rows, 21 columns).",
+    "PROC CONTENTS completed: 25 observations, 21 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}
